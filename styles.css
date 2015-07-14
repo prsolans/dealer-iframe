@@ -1,0 +1,80 @@
+body { font-family: "Benton Sans Regular", sans-serif; margin: 0; }
+#container { background: white; min-width: 500px; max-width: 1000px; margin: auto; }
+header { font-family: "Caecilia Light Bold", serif; font-size: 14px; height: 100px; padding: 0 24px; text-align: center; }
+footer { background: #333333; color: white; font-size: 10px; padding: 20px; }
+main { background-color: #eeeded; padding: 35px; }
+section { background-color: white; padding: 40px; margin-bottom: 35px; }
+aside { background-color: #dee1de; padding: 30px 25px;}
+
+h1 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 25px; margin-top: 0; text-transform: uppercase; }
+h2 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 25px; text-transform: uppercase; }
+p { font-size: 12px; line-height: 20px; }
+p.intro { font-size: 16px; line-height: 24px; }
+
+header #left-header, header #right-header { display: inline; padding-top: 40px; max-width: 170px;}
+header #logo { padding-top: 32px; margin: auto; max-width: 160px; }
+header a, header a:visited { color: black; text-decoration: none; }
+
+.drawer-header { cursor: pointer; font-family: "Helvetica Neue Light Bold Condensed", sans-serif; height: 30px; padding: 35px 25px; margin-top: 10px; text-transform: uppercase; }
+section.open-content { padding: 0; }
+section.drawer-content { display: none; padding: 0; }
+section.drawer-content p, section.open-content p, section.drawer-content h2, section.open-content h2 { padding: 10px 25px; margin: 0; }
+section.drawer-content p img, section.open-content p img { padding-top: 15px; padding-bottom: 15px; width: 100%; }
+
+aside img { width: 100%; }
+aside #carousel { list-style: none; padding: 0; }
+aside #carousel li { display: none; }
+aside #carousel .carousel-copy { padding-top: 18px; min-height: 100px; }
+aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -114px;}
+aside #carousel-nav .carousel-navigation { clear: none; float: left; }
+aside #carousel-nav .carousel-navigation.disabled { cursor: default; opacity: .8; }
+aside #carousel-nav img { height: 40px; width: 40px; }
+aside #carousel-nav #prev-slide img { transform: rotate(-180deg); }
+
+footer a, footer a:visited, footer a:hover { color: white; }
+
+.home-container {}
+.home-container h1 { font-size: 35px; line-height: 35px; margin-bottom: 15px; text-transform: none; }
+.home-container p { font-size: 16px; line-height: 24px; width: 245px; }
+#home-header { background: url(images/home/Home_Hero.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; min-height: 320px; padding: 35px 20px 0 35px; width: 100%;}
+#home-menu { position: absolute; right: 20px; top: 20px; }
+#home-menu .item { cursor: pointer; height: 165px; text-align: center; width: 165px; }
+#home-menu .item h2 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 16px; margin: 0; text-transform: uppercase; }
+#home-menu .item h3 { font-family: "Caecilia Light Bold", serif; font-size: 14px; }
+#home-menu .item img { padding-top: 25px; }
+#home-menu .item .divider { margin: auto; margin-top: 10px; width: 40px; }
+
+.cool-blue { background: #8ba4b0; }
+.cool-gray { background: #bec4c5; }
+.cool-green { background: #acb592; }
+.cool-orange { background: #dbbc91; }
+.warm-blue { background: #607577; }
+.warm-gray { background: #837c6f; }
+.warm-green { background: #7d8379; }
+.warm-orange { background: #a66e4c; }
+.warm-tan { background: #ac9b74; }
+
+.divider { background-color: #333; height: 4px; margin-bottom: 15px; width: 50px; }
+.fl { float: left; }
+.fr { float: right; }
+.cl { clear: both; }
+
+@font-face {
+    font-family: "Benton Sans Regular";
+    src: url('fonts/BentonSans-Regular.eot?') format('eot'), url('fonts/BentonSans-Regular.woff') format('woff'), url('fonts/BentonSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Benton Sans Medium";
+    src: url('fonts/BentonSans-Medium.eot?') format('eot'), url('fonts/BentonSans-Medium.woff') format('woff'), url('fonts/BentonSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Caecilia Light Bold";
+    src: url('fonts/CaeciliaLTStd-Bold.eot?') format('eot'), url('fonts/CaeciliaLTStd-Bold.woff') format('woff'), url('fonts/CaeciliaLTStd-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: "Helvetica Neue Light Bold Condensed";
+    src: url('fonts/HelveticaNeueLTStd-BdCn.eot?') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+}
