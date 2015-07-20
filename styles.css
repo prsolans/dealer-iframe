@@ -25,7 +25,7 @@ header .nav-arrow.right { transform: rotate(180deg); }
 section.open-content { padding: 0; }
 section.drawer-content { display: none; padding: 0; }
 section.drawer-content p, section.open-content p, section.drawer-content h2, section.open-content h2 { padding: 10px 25px; margin: 0; }
-section.drawer-content p img, section.open-content p img { padding-top: 15px; padding-bottom: 15px; width: 100%; }
+section.drawer-content p img, section.open-content p img { padding-bottom: 15px; width: 100%; }
 
 section .callouts {}
 section .callouts .item { border: none; clear: none; float: left; height: 225px; max-width: 178px; width: 48%; }
@@ -62,8 +62,7 @@ footer a, footer a:visited, footer a:hover { color: white; }
 #home-menu .item img { padding-top: 25px; }
 #home-menu .item .divider { margin: auto; margin-top: 10px; width: 40px; }
 
-
-@media all AND (min-width: 800px){
+@media all AND (min-width: 780px){
 
     p { font-size: 16px; }
 
@@ -75,7 +74,8 @@ footer a, footer a:visited, footer a:hover { color: white; }
     .drawer-header h3 { font-size: 25px; width: auto; }
 
     section.drawer-content { padding: 15px 0; }
-    section .callouts .item { width: 200px; }
+    section .callouts .item { height: 300px; width: 20%;}
+    section .callouts .item p { font-size: 12px; }
     section .callouts .item:not(:last-child) { border-right: 1px solid gray; }
     section .callouts .item:not(:first-child) { padding-left: 20px; }
     section .callouts .item.border-bottom { border-bottom: 0; }
@@ -88,6 +88,12 @@ footer a, footer a:visited, footer a:hover { color: white; }
     .small-line-break { white-space: normal !important; }
     .small-line-break:before { content: ""; }
 
+}
+
+@media all AND (min-width: 850px) {
+
+    section .callouts .item { width: 23%; max-width: 250px; }
+    section .callouts .item p { font-size: 16px; }
 }
 
 .cool-blue { background: #8ba4b0; }
