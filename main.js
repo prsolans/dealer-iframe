@@ -12,8 +12,11 @@ $(document).ready(function() {
         if(!content.hasClass('drawer-open')) {
             $('.drawer-content.drawer-open').hide().removeClass('drawer-open');
             content.slideToggle(400).addClass('drawer-open');
+
         }
         else { content.hide(400).removeClass('drawer-open'); }
+
+        $('html,body').animate({scrollTop: $(this).offset().top}, 300);
     });
 });
 
@@ -48,6 +51,8 @@ $.fn.carousel = function() {
                 $(this).addClass('disabled');
             }
         }
+
+
     });
 
     $('#prev-slide').on('click', function(e) {
@@ -62,5 +67,10 @@ $.fn.carousel = function() {
                 $(this).addClass('disabled');
             }
         }
+        //
+        //var offset = $(this).offset().top - 30;
+        //
+        //$('html,body').animate({scrollTop: offset}, 300);
+
     });
 }
