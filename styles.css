@@ -47,7 +47,10 @@ aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -1
 aside #carousel-nav .carousel-navigation { clear: none; float: left; }
 aside #carousel-nav .carousel-navigation.disabled { cursor: default; opacity: .8; }
 aside #carousel-nav img { height: 40px; width: 40px; }
-aside #carousel-nav #prev-slide img { transform: rotate(-180deg); }
+/*aside #carousel-nav #prev-slide img { transform: rotate(-180deg); }*/
+
+.next-arrow { width: 50px; height: 50px; line-height: 50px; padding: 0; margin: 0; text-align: center; cursor: pointer; }
+.prev-arrow { width: 50px; height: 50px; line-height: 50px; padding: 0; margin: 0; margin-right: -4px; text-align: center; cursor: pointer;}
 
 footer a, footer a:visited, footer a:hover { color: white; }
 
