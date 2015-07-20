@@ -22,8 +22,9 @@ header .nav-arrow.right { transform: rotate(180deg); }
 
 .drawer-header { cursor: pointer; font-family: "Helvetica Neue Light Bold Condensed", sans-serif; height: 30px; padding: 35px 25px; margin-top: 10px; text-transform: uppercase; }
 .drawer-header h3 { margin: 0; padding: 0; width: 140px; }
+.drawer-arrow { clear: none; cursor: pointer; float: right; margin-top: -40px; }
 section.open-content { padding: 0; }
-section.drawer-content { display: none; padding: 0; }
+section.drawer-content { display: none; padding: 10px 0; }
 section.drawer-content p, section.open-content p, section.drawer-content h2, section.open-content h2 { padding: 10px 25px; margin: 0; }
 section.drawer-content p img, section.open-content p img { padding-bottom: 15px; width: 100%; }
 
@@ -34,14 +35,15 @@ section .callouts .item.border-left { border-left: 1px solid gray; padding-left:
 section .callouts .item p { width: 90%; }
 section .callouts .item h2 { font-size: 40px; margin-bottom: 20px; }
 
+aside { margin-bottom: -10px; }
 aside img { width: 100%; }
 aside h2 { padding-left: 0 !important; }
 aside #carousel { list-style: none; padding: 0; }
 aside #carousel li { display: none; }
-aside #carousel .carousel-copy { font-size: 12px; padding-top: 18px; min-height: 100px; max-width: 75%; }
+aside #carousel .carousel-copy { font-size: 12px; min-height: 100px; max-width: 75%; }
 aside #carousel .carousel-copy h5 { font-family: "Helvetica Neue Light Bold Condensed"; font-size: 16px; margin-bottom: 10px; text-transform: uppercase; }
 aside #carousel .carousel-copy .legend { font-family: "Helvetica Neue Light Bold Condensed"; }
-aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -114px;}
+aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -120px;}
 aside #carousel-nav .carousel-navigation { clear: none; float: left; }
 aside #carousel-nav .carousel-navigation.disabled { cursor: default; opacity: .8; }
 aside #carousel-nav img { height: 40px; width: 40px; }
@@ -72,6 +74,7 @@ footer a, footer a:visited, footer a:hover { color: white; }
 
     .drawer-header { height: 20px; }
     .drawer-header h3 { font-size: 25px; width: auto; }
+    .drawer-arrow { margin-top: -30px; }
 
     section.drawer-content { padding: 15px 0; }
     section .callouts .item { height: 300px; width: 20%;}
