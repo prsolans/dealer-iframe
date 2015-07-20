@@ -11,9 +11,9 @@ $(document).ready(function() {
         var content = $(this).next('.drawer-content');
         if(!content.hasClass('drawer-open')) {
             $('.drawer-content.drawer-open').hide().removeClass('drawer-open');
-            content.slideToggle('fast').addClass('drawer-open');
+            content.slideToggle(400).addClass('drawer-open');
         }
-        else { content.hide().removeClass('drawer-open'); }
+        else { content.hide(400).removeClass('drawer-open'); }
     });
 });
 
