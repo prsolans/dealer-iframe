@@ -21,7 +21,7 @@ header .nav-arrow { padding-right: 10px; margin-top: -3px; vertical-align: middl
 header .nav-arrow.right { transform: rotate(180deg); }
 
 .drawer-header { cursor: pointer; font-family: "Helvetica Neue Light Bold Condensed", sans-serif; height: 30px; padding: 35px 25px; margin-top: 10px; text-transform: uppercase; }
-.drawer-header h3 { padding: 0; width: 140px; }
+.drawer-header h3 { margin: 0; padding: 0; width: 140px; }
 section.open-content { padding: 0; }
 section.drawer-content { display: none; padding: 0; }
 section.drawer-content p, section.open-content p, section.drawer-content h2, section.open-content h2 { padding: 10px 25px; margin: 0; }
@@ -65,17 +65,29 @@ footer a, footer a:visited, footer a:hover { color: white; }
 
 @media all AND (min-width: 800px){
 
+    p { font-size: 16px; }
+
     .home-container p { font-size: 20px; width: 480px; }
     #home-header { background: url(images/home/Home-Hero-large.jpg); }
     #home-menu { right: 60px; }
 
+    .drawer-header { height: 20px; }
     .drawer-header h3 { font-size: 25px; width: auto; }
 
-    section .callouts .item { width: 160px; }
+    section.drawer-content { padding: 15px 0; }
+    section .callouts .item { width: 200px; }
     section .callouts .item:not(:last-child) { border-right: 1px solid gray; }
     section .callouts .item:not(:first-child) { padding-left: 20px; }
     section .callouts .item.border-bottom { border-bottom: 0; }
     section .callouts .item.border-left { border-left: 0; padding-left: 20px; width: 158px; }
+
+    aside h2 { font-size: 25px; }
+    aside #carousel .carousel-copy { font-size: 16px; }
+    aside #carousel .carousel-copy h5 { font-size: 20px; }
+
+    .small-line-break { white-space: normal !important; }
+    .small-line-break:before { content: ""; }
+
 }
 
 .cool-blue { background: #8ba4b0; }
@@ -92,6 +104,9 @@ footer a, footer a:visited, footer a:hover { color: white; }
 .fl { float: left; }
 .fr { float: right; }
 .cl { clear: both; }
+.bold { font-family: "Benton Sans Regular"; font-weight: 700;}
+.small-line-break { white-space: pre; }
+.small-line-break:before { content: "\A"; }
 
 @font-face {
     font-family: "Benton Sans Regular";
