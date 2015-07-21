@@ -52,7 +52,7 @@ $.fn.carousel = function() {
             }
         }
         var offset = $('ul').offset().top-65;
-        $('html,body').animate({scrollTop: offset});
+        $('html, body').scrollTop(offset);
     });
 
     $('#prev-slide').on('click', function(e) {
@@ -68,6 +68,6 @@ $.fn.carousel = function() {
             }
         }
         var offset = $('ul').offset().top-65;
-        $('html,body').animate({scrollTop: offset});
+        $('html, body').scrollTop(offset);
     });
 }
