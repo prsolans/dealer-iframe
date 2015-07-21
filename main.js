@@ -51,8 +51,8 @@ $.fn.carousel = function() {
                 $(this).addClass('disabled');
             }
         }
-
-
+        var offset = $('ul').offset().top-65;
+        $('html,body').animate({scrollTop: offset});
     });
 
     $('#prev-slide').on('click', function(e) {
@@ -67,10 +67,7 @@ $.fn.carousel = function() {
                 $(this).addClass('disabled');
             }
         }
-        //
-        //var offset = $(this).offset().top - 30;
-        //
-        //$('html,body').animate({scrollTop: offset}, 300);
-
+        var offset = $('ul').offset().top-65;
+        $('html,body').animate({scrollTop: offset});
     });
 }
