@@ -6,6 +6,7 @@ $(document).ready(function() {
 
     $('ul#carousel').carousel();
     $('#home-menu').homeMenu();
+    $('.accolades').accolades();
 
     $('.drawer-header').on('click', function() {
         var content = $(this).next('.drawer-content');
@@ -69,5 +70,18 @@ $.fn.carousel = function() {
         }
         var offset = $('ul').offset().top-65;
         $('html, body').scrollTop(offset);
+    });
+}
+
+$.fn.accolades = function() {
+    var element = 'section#accolades .item';
+
+    $(element).hover( function() {
+        var image = $(this).find('img');
+        image.attr('src', image.data('image-hover'));
+    },
+    function() {
+        var image = $(this).find('img');
+        image.attr('src', image.data('image'));
     });
 }
