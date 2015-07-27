@@ -49,10 +49,10 @@ aside img { width: 100%; }
 aside h2 { padding-left: 0 !important; }
 aside #carousel { list-style: none; padding: 0; }
 aside #carousel li { display: none; }
-aside #carousel .carousel-copy { font-size: 12px; min-height: 100px; max-width: 75%; }
+aside #carousel .carousel-copy { font-size: 12px; min-height: 140px; max-width: 75%; }
 aside #carousel .carousel-copy h5 { font-family: "Helvetica Neue Light Bold Condensed"; font-size: 16px; margin-bottom: 10px; text-transform: uppercase; }
 aside #carousel .carousel-copy .legend { font-family: "Helvetica Neue Light Bold Condensed"; }
-aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -120px;}
+aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -155px;}
 aside #carousel-nav .carousel-navigation { clear: none; float: left; }
 aside #carousel-nav .carousel-navigation.disabled { cursor: default; opacity: .8; }
 aside #carousel-nav img { height: 40px; width: 40px; }

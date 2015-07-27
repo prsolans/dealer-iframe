@@ -53,6 +53,7 @@ $.fn.carousel = function() {
             }
         }
         var offset = $('ul').offset().top-65;
+
         $('html, body').scrollTop(offset);
     });
 
