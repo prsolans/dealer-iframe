@@ -1,6 +1,6 @@
 html { -webkit-font-smoothing: antialiased; }
 body { color: #333333; font-family: "Benton Sans Regular", sans-serif; margin: 0; }
-#container { background: white; min-width: 500px; max-width: 1000px; margin: auto; }
+#container { background: white; min-width: 500px; max-width: 1000px; margin: auto; width: 100%; }
 header { font-family: "Caecilia Light Bold", serif; font-size: 14px; height: 100px; padding: 0 24px; text-align: center; }
 footer { background: #333333; color: white; font-size: 10px; padding: 20px; }
 main { background-color: #eeeded; padding: 35px; }
