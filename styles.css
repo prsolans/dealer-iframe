@@ -14,6 +14,13 @@
 }
 
 @font-face {
+    font-family: "Helvetica Neue Medium Condensed";
+    src: url('fonts/HelveticaNeueLTStd-MdCn.otf');
+    /*src: url('fonts/HelveticaNeueLTStd-BdCn.eot') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');*/
+}
+
+
+@font-face {
     font-family: "Helvetica Neue Light Bold Condensed";
     src: url('fonts/HelveticaNeueLTStd-BdCn.otf');
     src: url('fonts/HelveticaNeueLTStd-BdCn.eot') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
@@ -28,8 +35,8 @@ main { background-color: #eeeded; padding: 35px; }
 section { background-color: white; padding: 40px; margin-bottom: 35px; }
 aside { background-color: #dee1de; padding: 30px 25px;}
 
-h1 { font-family: "HelveticaNeueW01-67MdCn 692710", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 25px; margin-top: 0; text-transform: uppercase; }
-h2 { font-family: "HelveticaNeueW01-67MdCn 692710", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 25px; text-transform: uppercase; }
+h1 { font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 25px; margin-top: 0; text-transform: uppercase; }
+h2 { font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 25px; text-transform: uppercase; }
 p { font-size: 12px; line-height: 20px; }
 p.intro { font-size: 16px; line-height: 24px; }
 input[type="text"] { border: 2px solid #cacaca; height: 34px; }
@@ -41,7 +48,7 @@ header a, header a:visited { color: black; text-decoration: none; }
 header .nav-arrow { padding-right: 10px; margin-top: -3px; vertical-align: middle; }
 header .nav-arrow.right { transform: rotate(180deg); }
 
-.drawer-header { cursor: pointer; font-family: "Helvetica Neue Light Bold Condensed", sans-serif; height: 30px; padding: 35px 25px; margin-top: 10px; text-transform: uppercase; }
+.drawer-header { cursor: pointer; font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed", sans-serif; height: 30px; padding: 35px 25px; margin-top: 10px; text-transform: uppercase; }
 .drawer-header h3 { margin: 0; padding: 0; width: 140px; }
 .drawer-arrow { clear: none; cursor: pointer; float: right; margin-top: -40px; }
 section.open-content { padding: 0; }
@@ -71,8 +78,8 @@ aside h2 { padding-left: 0 !important; }
 aside #carousel { list-style: none; padding: 0; }
 aside #carousel li { display: none; }
 aside #carousel .carousel-copy { font-size: 12px; min-height: 140px; max-width: 75%; }
-aside #carousel .carousel-copy h5 { font-family: "Helvetica Neue Light Bold Condensed"; font-size: 16px; margin-bottom: 10px; text-transform: uppercase; }
-aside #carousel .carousel-copy .legend { font-family: "Helvetica Neue Light Bold Condensed"; }
+aside #carousel .carousel-copy h5 { font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed"; font-size: 16px; margin-bottom: 10px; text-transform: uppercase; }
+aside #carousel .carousel-copy .legend { font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed"; }
 aside #carousel-nav { cursor: pointer; float: right; position: relative; top: -155px;}
 aside #carousel-nav .carousel-navigation { clear: none; float: left; }
 aside #carousel-nav .carousel-navigation.disabled { cursor: default; opacity: .8; }
@@ -91,7 +98,7 @@ footer a, footer a:visited, footer a:hover { color: white; }
 #home-header #logo { padding: 35px 20px 0 35px; }
 #home-menu { position: absolute; right: 20px; top: 20px; padding-bottom: 35px; }
 #home-menu .item { cursor: pointer; height: 165px; text-align: center; width: 165px; }
-#home-menu .item h2 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 16px; margin: 0; text-transform: uppercase; }
+#home-menu .item h2 { font-family: "Helvetica Neue Medium Condensed", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 16px; margin: 0; text-transform: uppercase; }
 #home-menu .item h3 { font-family: "Caecilia Light Bold", serif; font-size: 14px; }
 #home-menu .item img { padding-top: 25px; }
 #home-menu .item .divider { margin: auto; margin-top: 10px; width: 40px; }
