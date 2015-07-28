@@ -16,7 +16,7 @@
 @font-face {
     font-family: "Helvetica Neue Medium Condensed";
     src: url('fonts/HelveticaNeueLTStd-MdCn.otf');
-    /*src: url('fonts/HelveticaNeueLTStd-BdCn.eot') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');*/
+    src: url('fonts/HelveticaNeueLTStd-MdCn.eot') format('eot'), url('fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-MdCn.ttf') format('truetype');
 }
 
 
