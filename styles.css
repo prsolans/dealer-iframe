@@ -1,4 +1,25 @@
-html { -webkit-font-smoothing: antialiased; }
+@font-face {
+    font-family: "Benton Sans Regular";
+    src: url('fonts/BentonSans-Regular.eot?') format('eot'), url('fonts/BentonSans-Regular.woff') format('woff'), url('fonts/BentonSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Benton Sans Medium";
+    src: url('fonts/BentonSans-Medium.eot?') format('eot'), url('fonts/BentonSans-Medium.woff') format('woff'), url('fonts/BentonSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Caecilia Light Bold";
+    src: url('fonts/CaeciliaLTStd-Bold.eot?') format('eot'), url('fonts/CaeciliaLTStd-Bold.woff') format('woff'), url('fonts/CaeciliaLTStd-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: "Helvetica Neue Light Bold Condensed";
+    src: url('fonts/HelveticaNeueLTStd-BdCn.otf');
+    src: url('fonts/HelveticaNeueLTStd-BdCn.eot') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+}
+
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 body { color: #333333; font-family: "Benton Sans Regular", sans-serif; margin: 0; }
 #container { background: white; min-width: 500px; max-width: 1000px; margin: auto; width: 100%; }
 header { font-family: "Caecilia Light Bold", serif; font-size: 14px; height: 100px; padding: 0 24px; text-align: center; }
@@ -7,8 +28,8 @@ main { background-color: #eeeded; padding: 35px; }
 section { background-color: white; padding: 40px; margin-bottom: 35px; }
 aside { background-color: #dee1de; padding: 30px 25px;}
 
-h1 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 25px; margin-top: 0; text-transform: uppercase; }
-h2 { font-family: "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 25px; text-transform: uppercase; }
+h1 { font-family: "HelveticaNeueW01-67MdCn 692710", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 25px; margin-top: 0; text-transform: uppercase; }
+h2 { font-family: "HelveticaNeueW01-67MdCn 692710", "Helvetica Neue Light Bold Condensed", sans-serif; font-size: 16px; line-height: 25px; text-transform: uppercase; }
 p { font-size: 12px; line-height: 20px; }
 p.intro { font-size: 16px; line-height: 24px; }
 input[type="text"] { border: 2px solid #cacaca; height: 34px; }
@@ -128,22 +149,3 @@ footer a, footer a:visited, footer a:hover { color: white; }
 .small-line-break { white-space: pre; }
 .small-line-break:before { content: "\A"; }
 
-@font-face {
-    font-family: "Benton Sans Regular";
-    src: url('fonts/BentonSans-Regular.eot?') format('eot'), url('fonts/BentonSans-Regular.woff') format('woff'), url('fonts/BentonSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "Benton Sans Medium";
-    src: url('fonts/BentonSans-Medium.eot?') format('eot'), url('fonts/BentonSans-Medium.woff') format('woff'), url('fonts/BentonSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "Caecilia Light Bold";
-    src: url('fonts/CaeciliaLTStd-Bold.eot?') format('eot'), url('fonts/CaeciliaLTStd-Bold.woff') format('woff'), url('fonts/CaeciliaLTStd-Bold.svg') format('svg');
-}
-
-@font-face {
-    font-family: "Helvetica Neue Light Bold Condensed";
-    src: url('fonts/HelveticaNeueLTStd-BdCn.eot?') format('eot'), url('fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
-}
