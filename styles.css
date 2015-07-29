@@ -72,7 +72,7 @@ section#accolades .item.left { border-left: 0; }
 section#accolades .item.right { border-right: 0; }
 section#accolades .item img { width: 100%; }
 
-aside { margin-bottom: -10px; }
+aside { margin-bottom: -20px; margin-top: 15px;  }
 aside img { width: 100%; }
 aside h2 { padding-left: 0 !important; }
 aside #carousel { list-style: none; padding: 0; }
@@ -105,7 +105,8 @@ footer a, footer a:visited, footer a:hover { color: white; }
 
 @media all AND (min-width: 780px){
 
-    p { font-size: 16px; }
+    p { font-size: 16px; line-height: 24px; }
+    p.intro { font-size: 20px; line-height: 30px; }
 
     .home-container p { font-size: 20px; width: 480px; }
     #home-header { background: url(images/home/Home-Hero-large.jpg); }
